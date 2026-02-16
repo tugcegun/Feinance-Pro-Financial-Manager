@@ -33,9 +33,20 @@ yarn-error.*
 # local env files
 .env*.local
 
+# Backend config (contains DB credentials)
+backend/config.php
+
 # typescript
 *.tsbuildinfo
 
 # generated native folders
 /ios
 /android
+
+# Claude Code
+.claude/
+
+# Misc
+nul
+not.txt
+rapor.html
